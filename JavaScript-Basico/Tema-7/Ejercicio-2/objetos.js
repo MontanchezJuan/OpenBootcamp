@@ -23,4 +23,4 @@ const marco = {
 
 const list = [me,santi,marco]
 
-const orderList = list.sort((a,b)=> a.age - b.age)
+const orderList = list.sort((a,b)=> b.age - a.age)
