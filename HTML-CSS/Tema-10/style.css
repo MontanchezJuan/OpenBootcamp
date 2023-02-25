@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+
+div.left {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+    gap: 1rem;
+}
+
+.right {
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    div.left {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
