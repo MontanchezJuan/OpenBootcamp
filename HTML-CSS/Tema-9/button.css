@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern::before {
+    content: "Touch me";
+}
+
+.btn-modern {
+    padding: 5px 10px;
+    width: 100px;
+    height: 50px;
+    color: #5D3891;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-modern:hover {
+    color: white;
+    opacity: 0.6;
+    transform: translateY(-5px);
+    background-color: aqua;
+    border-bottom: 3px solid rgb(0, 200, 255);
+}
