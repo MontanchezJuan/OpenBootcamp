@@ -1,0 +1,8 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-colombia {
+    width: 300px;
+}
