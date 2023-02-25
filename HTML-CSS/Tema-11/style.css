@@ -1,0 +1,19 @@
+.row div {
+    background-color: aqua;
+    margin: 8px;
+    padding: 4px;
+}
+
+.row {
+    padding: 8px;
+}
+
+@media (max-width: 576px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    div.col {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
