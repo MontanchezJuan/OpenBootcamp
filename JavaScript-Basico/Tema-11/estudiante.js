@@ -8,9 +8,12 @@ class Estudiante {
     }
 
     obtenDatos() {
-        return new Estudiante(this.nombre, this.asignaturas)
+        return {
+            nombre: this.nombre,
+            asignaturas: this.asignaturas
+        }
     }
 }
 
 const estudiante = new Estudiante('Juan')
-const juan = estudiante.obtenDatos()
+console.log(estudiante.obtenDatos())
